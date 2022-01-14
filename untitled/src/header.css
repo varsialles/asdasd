@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Secular+One&family=Shizuru&family=Vujahday+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.top {
+    background: #292931;
+    display: flex;
+    justify-content: center;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+h1{
+    font-size: 33px;
+    color: white;
+    margin: 5px 0 5px 0;
+    font-family: 'Righteous', cursive;
+}

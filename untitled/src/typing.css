@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Fira+Sans+Extra+Condensed:wght@500&family=Montserrat&family=Nunito+Sans:ital@1&family=Oswald:wght@500&family=Righteous&family=Rubik:wght@300;400&family=Secular+One&family=Shizuru&family=Vujahday+Script&display=swap');
+
+.box{
+    display: flex;
+    background: #f2f3f4;
+min-height: 100vh;
+}
+.quoteArea{
+    background: black;
+    padding: 10px;
+    border-radius: 12px;
+    width: 620px;
+    max-width: 80%  ;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+    white-space: pre-wrap;
+}
+/*.quote-display p{*/
+/*    color: white;*/
+/*    font-size: 20px;*/
+/*    font-family: 'Rubik', sans-serif;*/
+/*    */
+/*}*/
+.quoteDisplay{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.quoteInput{
+    background-color: #699BF7;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: auto;
+    resize: none;
+    width: 100%;
+    height: 8rem;
+border: 2px solid white;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    right: 3px;
+    outline: none;
+}
+.quoteInput:focus{
+    color: white;
+}
+.parapara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #699BF7;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+
+}
+.blur{
+}
+.startGame{
+    background-color: #f2f3f4;
+    color: #699BF7;
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    letter-spacing: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    padding-bottom: 3px;
+    box-shadow: 0 0 0 0 ;
+    outline: none;
+    transition: ease-out 0.3s;
+    z-index: 1;
+    position: relative;
+    margin-top: 20px;
+}
+.startGame:hover{
+color: #699BF7;
+    cursor: pointer;
+}
+.startGame:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: black;
+}
+.startGame:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 4px;
+}
+.form{
+    font-family:'Rubik', sans-serif;
+}
+.formInput{
+    position: relative;
+    width: 125px;
+    height: 22px;
+    font-family:'Rubik', sans-serif;
+border-radius: 0.2rem;
+border: 2px solid #f2f3f4;
+    background: none;
+    color: white;
+    outline: none;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.formInput:hover{
+    border-color: grey;
+}
+.formInput:focus{
+    border-color: black;
+}
+.formInput::placeholder{
+    color: white;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.correct{
+    background-color: #3BB08F
+}
+.incorrect{
+    background-color: #EB4C42;
+}
+
+
+.quizsection h2{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.quizsection label span{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 18px;
+
+}
+.quizsection label {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+
+
+}
+.radio{
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+margin-right: 3px;
+}
+
+
+
